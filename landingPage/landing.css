@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(/landingPage/bgImgLandingPage.jpg);
+}
+
+.container{
+    height: 700px;
+}
+
+.logo img{
+    border-radius: 50%;
+    height: 120px;
+    padding: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h2{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.nameEnter form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nameEnter form input{
+    padding: 15px;
+    width: 335px;
+    height: 20px;
+    border-radius: 25px;
+    border: 0px solid white;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 15px;
+    width: 250px;
+    border-radius: 25px;
+    border: 0px solid white;
+    cursor: pointer;
+}
+
+.btn button a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn button:hover{
+    background-color: #3C2F7F;
+}
